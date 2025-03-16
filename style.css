@@ -1,0 +1,100 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --accent-color: #ff5722;
+    --text-color: #333;
+    --bg-color: #f8f9fa;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* #f2f5f6 */
+.slide1,
+.slide2,
+.slide3 {
+  height: 24px;
+  transform: skew(-30deg) !important;
+}
+
+.slides {
+  display: flex;
+  gap: 3px;
+}
+
+.light {
+  width: 0.453rem;
+  background-color: #c9d3d8;
+}
+
+.medium {
+  width: 0.641rem;
+  background-color: #92a7b0;
+}
+
+.dark {
+  width: 0.922rem;
+  background-color: #043a53;
+}
+
+.logo-main {
+  display: flex;
+  gap: 5px;
+}
+
+.logo-main .brand-name {
+  margin-left: 5px;
+  font: bold 1.5rem sans-serif;
+  color: #043a53;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.navbar a {
+    font: 800 16px lato;
+    color: #12141D;
+    text-decoration: none;
+    padding: 0px    15px;
+}
+
+.navbar a.active {
+    color: #043a53;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+.login-btn, .logout-btn {
+    outline: none;
+    border: none;
+    width: 5rem;
+    height: 3rem;
+    background: white;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 42px;
+}
+
+.logout-btn {
+    background-color: #043A53 !important;
+    color: white;
+}
